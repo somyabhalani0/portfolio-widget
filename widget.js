@@ -240,6 +240,16 @@
       transform: translateY(-50%) scale(1.1);
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     }    }
+    @media (max-width: 480px) {
+      #ai-widget-window {
+        width: auto !important;
+        left: 16px !important;
+        right: 16px !important;
+      }
+      #ai-widget-input {
+        font-size: 16px !important; /* Prevents iOS auto-zoom */
+      }
+    }
   `;
   document.head.appendChild(style);
 
@@ -383,6 +393,8 @@
   });
 
 })();
+
+
 
 
 
