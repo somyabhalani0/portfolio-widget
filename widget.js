@@ -11,7 +11,7 @@
         width: 64px;
         height: 64px;
         border-radius: 50%;
-        background-image: url('./assets/icon.jpeg');
+        background-image: url('https://raw.githubusercontent.com/somyabhalani0/portfolio-widget/main/assets/icon.jpeg');
         background-size: cover;
         background-position: center;
         box-shadow: 
@@ -66,7 +66,7 @@
         content: '';
         position: absolute;
         inset: -10px;
-        background: url('./assets/card-bg.png') no-repeat center center;
+        background: url('https://raw.githubusercontent.com/somyabhalani0/portfolio-widget/main/assets/card-bg.png') no-repeat center center;
         background-size: cover;
         filter: blur(2px);
         z-index: -1;
@@ -249,7 +249,7 @@
     <div id="ai-widget-window">
       <div id="ai-widget-blur-overlay"></div>
       <div id="ai-widget-header">
-        <div style="width: 32px; height: 32px; border-radius: 50%; background-image: url('./assets/icon.jpeg'); background-size: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2);"></div>
+        <div style="width: 32px; height: 32px; border-radius: 50%; background-image: url('https://raw.githubusercontent.com/somyabhalani0/portfolio-widget/main/assets/icon.jpeg'); background-size: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2);"></div>
       </div>
       <div id="ai-widget-messages">
         <div class="ai-msg">Hello! How can I help you today?</div>
@@ -383,6 +383,7 @@
   });
 
 })();
+
 
 
 
